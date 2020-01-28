@@ -1,0 +1,14 @@
+nav ul li a:hover {
+    color: gray;
+    border-bottom: 1px solid #000;
+}
+
+nav ul li a {
+    color: #000;
+}
+
+.banner {
+    background-image: url(../imagens/380.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
