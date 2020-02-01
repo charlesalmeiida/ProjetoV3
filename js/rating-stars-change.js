@@ -10,15 +10,7 @@ function removerEstrela(mediaAvaliacoes, classeAvaliacoes){
 
 	var restoMedia = mediaAvaliacoes%1;
 	var mediaInteira = mediaAvaliacoes - restoMedia;
-	
-
-	
-
-
-	/*var estrelaFull = document.createElement("I");
-	var faFaStar = document.createAttribute("class");
-	faFaStar.value = "fa fa-star text-warning";
-	estrelaFull.setAttributeNode(faFaStar);*/
+		
 
 
 

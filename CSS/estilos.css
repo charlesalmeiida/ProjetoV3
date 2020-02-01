@@ -7,8 +7,12 @@ nav ul li a {
     color: #000;
 }
 
-.banner {
+body {
     background-image: url(../imagens/380.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+#ajuda {
+    background: white !important;
 }

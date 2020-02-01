@@ -24,7 +24,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    <body style="margin-bottom: 200px;padding: 16px;">
+    <body id="ajuda" style="margin-bottom: 200px;padding: 16px;">
 
   <!-- Início Barra de Navegação -->
   <nav class="navbar navbar-expand-sm fixed-top bg-light"> 
@@ -55,117 +55,61 @@
     </div>
   </nav>
  <!-- /Fim Barra de Navegação -->
-
-<!-- Início Conteúdo -->
-  <div class="p-5">
-
-    <div class="row justify-content-start mt-5"> 
-
-      <div class="col-md-6 col-sm-12 bg-withe p-4 ml-5" style="background-color: rgba(255, 255, 255, 0.6);">
-        <h2 class="display-5">Viajando a trabalho? Encontre o workspace e a hospedagem ideais para você!</h2>
-        <label for="destino">Destino</label>
-        <input class="form-control" type="text" id="destino" placeholder="Digite seu destino">
-        <br>
-        <label for="areas">Áreas de interesse</label>
-        <input class="form-control"  type="text" id="areas" placeholder="Digite suas áreas de interesse">
-        <br>
-        <label for="data">Data</label>
-        <input class="form-control" type="date" id="data">
-        <br>
-        <a class="btn btn-primary" href="">Enviar</a>
-      </div>
-
-    </div> 
-
-    <br><br><br>
-
-  </div>
   
-  <div class="jumbotron pt-2 pb-1 mb-1">
-    <div class="container">
-    <h1 class="display-4">Espaços com as melhores avaliações</h1>
-    <p class="lead">Explore alguns dos espaços de coworking mais bem avaliados na sua região</p>
-    </div>
+  <div class="row">
 
+
+  <div class="col-12 container-fluid bg-light p-5 mb-1 mt-5">
+    
+    
+    <div class="col-sm-12">
+        <h1 class="display-1 mb-3">Sobre o ComboWork</h1>
+    </div>  
+    
     <div class="card-columns">
       
       <!-- Início cartão 1 -->
-      <div class="card text-dark">
-        <div class="card-body">
-          <h4 class="card-title">Edifício Time</h4>
-          <p class="card-text">O Edifício Time oferece acomodações perfeitas para
-            viagens a trabalho, além de possuir sala para reuniões, espaço de coworking e áreas de lazer, é ideal para quem deseja se hospedar próximo aos principais pontos da cidade.</p>
-          <a class="btn btn-outline-dark" href="">Leia mais</a>
-          <br><br>
-          <div class = "campoEstrelas1" style="display: inline-block;">
-         <i class="fas fa-star text-warning"></i>
-          <i class="fas fa-star text-warning"></i>
-          <i class="fas fa-star text-warning"></i>
-          <i class="fas fa-star text-warning"></i>
-          <i class="fa fa-star text-warning"></i> </div> <span class="mr-5">154 avaliações</span> <span class="ml-5">R$ 100/dia</span>
-        </div> 
-        <img class="card-img-bottom" src="imagens/Image 1.png" alt="">
+      <div class="card">
+        <div class="card-body"> 
+          <p class="display-1 text-right font-weight-bolder">QUEM</p>
+          <p class="display-4 text-right">SOMOS</p>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+          <a class="btn btn-block btn-outline-dark" href="">Leia mais</a>
+        </div>
       </div>
       <!-- /Fim cartão 1 -->
 
        <!-- Início cartão 2 -->
-        <div class="card text-dark">
-          <div class="card-body">
-            <h4 class="card-title">K+</h4>
-            <p class="card-text">Estações de trabalho, em ambiente climatizado, com recepção, sala de atendimento para recebimento de clientes, sala de reunião, ambiente de convivência, internet wi-fi, copa e outras comodidades.</p>
-            <a class="btn btn-outline-dark" href="">Leia mais</a>
-            <br><br>
-            <div class = "campoEstrelas2" style="display: inline-block;">
-          <i class="fas fa-star text-warning"></i>
-          <i class="fas fa-star text-warning"></i>
-          <i class="fas fa-star text-warning"></i>
-          <i class="fas fa-star text-warning"></i>
-          <i class="fas fa-star text-warning"></i></div> <span class="mr-5">154 avaliações</span> <span class="ml-5">R$ 100/dia</span>
-          </div>
-          <img class="card-img-bottom" src="imagens/Image 2.png" height="282">
+       <div class="card">
+        <div class="card-body"> 
+            <p class="display-1 text-right font-weight-bolder">O QUE</p>
+            <p class="display-4 text-right">FAZEMOS</p>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+          <a class="btn btn-block btn-outline-dark" href="">Leia mais</a>
         </div>
+      </div>
         <!-- /Fim cartão 2 -->
 
         <!-- Início cartão 3 -->
-         <div class="card text-dark">
-          <div class="card-body">
-            <h4 class="card-title">N3AU</h4>
-            <p class="card-text">Usando o compartilhamento de espaço para reduzir custos e aumentar os contatos profissionais dos usuários, o N3AU Conecta vai oferecer serviços e recursos de uma grande empresa, com possibilidades de uso completamente flexíveis.</p>
-            <a class="btn btn-outline-dark" href="">Leia mais</a>
-            <br><br>
-            <div class = "campoEstrelas3" style="display: inline-block;">
-          <i class="fas fa-star text-warning"></i>
-          <i class="fas fa-star text-warning"></i>
-          <i class="fas fa-star text-warning"></i>
-          <i class="fas fa-star text-warning"></i>
-          <i class="fas fa-star text-warning"></i></div> <span class="mr-5">154 avaliações</span> <span class="ml-5">R$ 100/dia</span>
+        <div class="card">
+            <div class="card-body"> 
+             <p class="display-1 text-right font-weight-bolder">COMO</p>
+             <p class="display-4 text-right">SE ASSOCIAR</p>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+              <a class="btn btn-block btn-outline-dark" href="">Leia mais</a>
+            </div>
           </div>
-          <img class="card-img-bottom" src="imagens/Image 3.png" alt="">
-        </div>
         <!-- /Fim cartão 3 -->
       
       </div>
     </div>
-      
-    <div class="jumbotron">
-      <div class="row">
-      
-      <div class="col-4">
-      <img src="imagens/dalephone.png" class="img-fluid" alt="Responsive image">
-      </div>
-
-      <div class="col-8">
-        <h1 class="display-4">Baixe nosso app grátis</h1>
-        <p>Baixe nosse app grátis e fique por dentro de todas nossas atualizações de hospedagens e espaços de coworking, para que sua viagem a trabalho se torne uma experiência única e agradável.</p>
-        <input class="btn btn-primary mt-1" type="submit" value="Baixe Agora!">
-      </div>
-
     </div>
-    </div>
-
+      
     <script src="js/rating-stars-change.js"></script>
 
 <!-- /Fim Conteúdo -->
+
+<br><br>
 
   <!-- Rodapé -->
   <footer class="bg-white container">
